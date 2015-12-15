@@ -35,7 +35,10 @@ var SantaModel = {
     //confronto se risposta è giusta:
    pack : function(item) {
        
-       if( document.getElementById( $(".card").val() ) == document  )
+       if( document.getElementById( $(".card").val() ) == document.getElementById( $(".card") ) ){
+           var ris=0;
+           ris+=1;
+       }
        
    }      
   
@@ -94,7 +97,7 @@ $(document).ready(function(){
         
     })
     
-    
+//I need more time    
      
 });
 
